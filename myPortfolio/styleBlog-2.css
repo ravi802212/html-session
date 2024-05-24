@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Dancing Script", cursive;
+  
+}
+body{
+    font-family: "Noto Sans", sans-serif;
+    background-color: rgb(44, 120, 120);
+}
+#main-section{
+    background-color: #ff9f91;
+    width: 100%;
+}
+#main-section h1{
+    
+    color:black;
+    text-shadow:5px 5px 10px red ;
+    margin: 20px 20px;
+   text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+#main-section .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+      
+}
+.container-box1{
+    margin: 1rem;
+    padding: 0%;
+    border: 2px solid red;
+}
+.container-box1 h2{
+    margin-top: 1rem;
+    text-shadow:5px 5px 10px red ;
+    border: 2px solid red;
+    
+}
+
+.container-box1 img{
+    width:300px;
+    margin-top: 1rem;
+}
+.container-box2{
+    margin: 1rem;
+    border: 2px solid red;
+}
+.container-box2 h2{
+    margin-top: 2rem;
+    text-shadow:5px 5px 10px red ;
+    border: 2px solid red;
+}
+.container-box2 img{
+    width: 300px;
+    margin :1rem;
+
+}
+.container-box3{
+    margin: 1rem;
+    border: 2px solid red;
+}
+.container-box3 h2{
+    margin-top: 1rem;
+    text-shadow:5px 5px 10px red ;
+    border: 2px solid red;
+}
+.container-box3 img{
+    width: 300px;
+    margin-top: 1rem;
+}
