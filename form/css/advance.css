@@ -1,0 +1,66 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1rem solid rgb(211, 185, 214);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+form {
+
+    padding: 25px;  
+    border-radius: 5px;
+    background-color: lightgreen;
+
+}
+
+.group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #721515;
+    border-radius: 5px;
+    box-shadow: 5px;
+}
+
+.gender-options {
+    margin-top: 5px;
+    display: flex;
+}
+
+.interest-options {
+    margin-top: 5px;
+    display: flex;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

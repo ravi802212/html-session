@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="css/advance.css">
+</head>
+<body>
+    <div class="container">
+        <form id="registration-form" action="#" method="post">
+            <h2>Registration Form</h2>
+            <div class="group">
+                <div class="form-group">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name"  name="first-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div class="form-group">
+                <label>Gender</label>
+                <div class="gender-options">
+                    <label for="male">Male</label>
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="female">Female</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="other">Other</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                   
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="country">Country</label>
+                <select id="country" name="country" required>
+                    <option value="" disabled selected>Select your country</option>
+                    <!-- Add options for countries -->
+                    <option value="USA">United States</option>
+                    <option value="UK">United Kingdom</option>
+                    <option value="Canada">Canada</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Interests</label>
+                <div class="interest-options">
+                    <input type="checkbox" id="interest1" name="interests" value="music">
+                    <label for="interest1">Music</label>
+                    <input type="checkbox" id="interest2" name="interests" value="sports">
+                    <label for="interest2">Sports</label>
+                    <input type="checkbox" id="interest3" name="interests" value="books">
+                    <label for="interest3">Books</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="profile-picture">Profile Picture</label>
+                <input type="file" id="profile-picture" name="profile-picture" accept="image/*">
+            </div>
+            <div class="form-group">
+                <label for="bio">Short Bio</label>
+                <textarea id="bio" name="bio" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to the <a href="#">Terms and Conditions</a></label>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
